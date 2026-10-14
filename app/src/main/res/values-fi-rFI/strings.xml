@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Morphella muokatut sovellukset, joita ei ole enää tällä laitteella</string>
     <string name="home_app_filter_clones">Kloonit</string>
     <string name="home_app_filter_clones_description">Sovellukset, jotka on rakennettu oman pakettinimen alle ja asennettu alkuperäisen rinnalle</string>
+    <string name="home_app_grouping_all_apps_description">Yksi luettelo kaikista sovelluksista</string>
+    <string name="home_app_grouping_sources_description">Sovellukset lähdepaikan alla, joka tarjoaa niitä</string>
+    <string name="home_app_grouping_custom_description">Sovellukset luomissasi kategorioissa</string>
     <string name="home_app_sort_manual_description">Paina sovellusta pitkään ja napauta sitten uudelleenjärjestä-painiketta</string>
     <string name="home_app_sort_recommended">Suositeltu järjestys</string>
     <string name="home_app_sort_recommended_description">Asennetut ja kiinnitetyt sovellukset ensin</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Lisäosien lähteet</string>
     <string name="sources_search">Hae lähteitä ja korjauksia</string>
-    <string name="sources_sort_title">Lajittele lisäosien lähteet</string>
     <string name="sources_sort_manual">Manuaalinen järjestys</string>
     <string name="sources_sort_manual_hint">Paina ja pidä lähdettä uudelleenjärjestämistä varten</string>
     <string name="sources_sort_last_updated">Viimeksi päivitetty</string>
@@ -778,8 +780,6 @@ Poistaminen poistaa pysyvästi kaikki sovelluksen tiedot."</string>
     <string name="settings_appearance_home_screen">Aloitusnäyttö</string>
     <string name="settings_appearance_greeting_phrases">Tervehdysviestit</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Näytä tervehdysviesti aloitusnäytöllä</string>
-    <string name="settings_appearance_app_grouping">Sovellusten ryhmittely</string>
-    <string name="settings_appearance_app_grouping_description">Näytä kytkin, jolla sovellukset ryhmitellään lähteen tai luokan mukaan</string>
     <string name="settings_appearance_repatch_notice">Uudelleenkorjausilmoitus</string>
     <string name="settings_appearance_repatch_notice_description">Näytä banneri, kun korjattuja sovelluksia voidaan korjata uudelleen</string>
     <string name="settings_appearance_sort_button">Lajittelu- ja suodatuspainike</string>
@@ -1247,6 +1247,7 @@ Yksityiskohdat: %2$s"</string>
     <string name="no">Ei</string>
     <string name="all">Kaikki</string>
     <string name="filter">Suodatin</string>
+    <string name="group">Ryhmä</string>
     <string name="reset">Nollaa</string>
     <string name="reset_all">Nollaa kaikki</string>
     <string name="apply">Käytä</string>

@@ -51,9 +51,12 @@
     <string name="home_app_filter_patched_description">Εφαρμογές που έχετε επιδιορθώσει ή αποθηκεύσει με το Morphe</string>
     <string name="home_app_filter_not_patched_description">Εφαρμογές που δεν έχετε επιδιορθώσει ακόμα στο Morphe</string>
     <string name="home_app_filter_installed_description">Εφαρμογές που είναι εγκατεστημένες αυτήν τη στιγμή σε αυτήν τη συσκευή</string>
-    <string name="home_app_filter_uninstalled_description">Εφαρμογές που έχουν επιδιορθωθεί με το Morphe και δεν βρίσκονται πλέον σε αυτήν τη συσκευή</string>
+    <string name="home_app_filter_uninstalled_description">Εφαρμογές που έχουν τροποποιηθεί με το Morphe και δε βρίσκονται πλέον σε αυτήν τη συσκευή</string>
     <string name="home_app_filter_clones">Κλώνοι</string>
     <string name="home_app_filter_clones_description">Εφαρμογές που δημιουργήθηκαν με δικό τους όνομα πακέτου, εγκατεστημένες δίπλα στην πρωτότυπη</string>
+    <string name="home_app_grouping_all_apps_description">Μια λίστα με όλες τις εφαρμογές</string>
+    <string name="home_app_grouping_sources_description">Εφαρμογές από την πηγή patch που τις παρέχει</string>
+    <string name="home_app_grouping_custom_description">Εφαρμογές στις κατηγορίες που δημιουργείτε</string>
     <string name="home_app_sort_manual_description">Πατήστε παρατεταμένα μια εφαρμογή, στη συνέχεια πατήστε το κουμπί αναδιάταξης</string>
     <string name="home_app_sort_recommended">Προτεινόμενη έκδοση</string>
     <string name="home_app_sort_recommended_description">Εγκατεστημένες και καρφιτσωμένες εφαρμογές πρώτα</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Πηγές τροποποιήσεων</string>
     <string name="sources_search">Αναζήτηση πηγών και επιδιορθώσεων</string>
-    <string name="sources_sort_title">Ταξινόμηση πηγών ενημερώσεων</string>
     <string name="sources_sort_manual">Χειροκίνητη ταξινόμηση</string>
     <string name="sources_sort_manual_hint">Πατήστε παρατεταμένα μια πηγή για να την αναδιατάξετε</string>
     <string name="sources_sort_last_updated">Τελευταία ενημέρωση</string>
@@ -240,8 +242,8 @@
     <string name="home_apk_helper_warning">Συνεχίστε μόνο εάν εμπιστεύεστε αυτή τη βοηθητική εφαρμογή. Η Morphe ελέγχει το πακέτο, την έκδοση και την υπογραφή όποιου κι αν λάβει περιεχόμενο πριν από την εφαρμογή διορθώσεων</string>
     <string name="home_apk_helper_warning_unverified">Συνεχίστε μόνο εάν εμπιστεύεστε αυτή τη βοηθητική εφαρμογή. Η Morphe δεν μπορεί να επαληθεύσει την υπογραφή αυτού του APK, επομένως ένα τροποποιημένο αρχείο δεν θα ανιχνευθεί</string>
     <string name="home_apk_helper_no_result">Η βοηθητική εφαρμογή δεν επέστρεψε ένα APK</string>
-    <string name="home_apk_helper_no_access">Η βοηθητική εφαρμογή δεν conceded πρόσβαση στο APK που επέστρεψε</string>
-    <string name="home_apk_helper_no_package">Η βοηθητική εφαρμογή δεν ανέφερε ποια εγκατεστημένη εφαρμογή να χρησιμοποιήσει</string>
+    <string name="home_apk_helper_no_access">Η βοηθητική εφαρμογή δεν επέτρεψε την πρόσβαση στο APK που επέστρεψε</string>
+    <string name="home_apk_helper_no_package">Η βοηθητική εφαρμογή δεν ανέφερε ποια εγκατεστημένη εφαρμογή να χρησιμοποιηθεί</string>
     <string name="home_apk_helper_wrong_package">Η βοηθητική εφαρμογή επέστρεψε μια διαφορετική εφαρμογή από αυτή που τροποποιείται</string>
     <string name="home_apk_helper_installed_unavailable">Ο Morphe δεν μπόρεσε να χρησιμοποιήσει την εγκατεστημένη εφαρμογή</string>
     <string name="home_apk_helper_installed_incompatible">Η εγκατεστημένη έκδοση δεν μπορεί να τροποποιηθεί</string>
@@ -777,8 +779,6 @@
     <string name="settings_appearance_home_screen">Αρχική οθόνη</string>
     <string name="settings_appearance_greeting_phrases">Φράσεις υποδοχής</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Εμφάνιση μηνύματος υποδοχής στην αρχική οθόνη</string>
-    <string name="settings_appearance_app_grouping">Ομαδοποίηση εφαρμογών</string>
-    <string name="settings_appearance_app_grouping_description">Εμφάνιση ενός διακόπτη για ομαδοποίηση εφαρμογών ανά πηγή ή κατηγορία</string>
     <string name="settings_appearance_repatch_notice">Ειδοποίηση επανάληψης τροποποιήσεων</string>
     <string name="settings_appearance_repatch_notice_description">Εμφάνιση banner όταν οι επιδιορθωμένες εφαρμογές μπορούν να επιδιορθωθούν εκ νέου</string>
     <string name="settings_appearance_sort_button">Κουμπί ταξινόμησης και φιλτραρίσματος</string>
@@ -1202,7 +1202,7 @@ morphe_header_custom_dark.png
     <string name="settings_system_apk_download_helper">Βοηθητικό εργαλείο λήψης APK</string>
     <string name="settings_system_apk_download_helper_trusted_count">Έμπιστες: %1$d από %2$d</string>
     <string name="settings_system_apk_download_helper_dialog_description">Οι βοηθητικές εφαρμογές μπορούν να κατεβάζουν πρωτότυπα APK για εσάς. Μόνο όσες εμπιστεύεστε εδώ προσφέρονται στις οδηγίες λήψης.</string>
-    <string name="settings_system_apk_download_helper_warning">Το APK προέρχεται από τη βοηθητική εφαρμογή, γι\' αυτό εμπιστευτείτε μόνο εφαρμογές που γνωρίζετε. Το Morphe εξακολουθεί να ελέγχει το πακέτο, την έκδοση και την υπογραφή κάθε αρχείου πριν από την τροποποίηση.</string>
+    <string name="settings_system_apk_download_helper_warning">Το APK προέρχεται από τη βοηθητική εφαρμογή, γι\' αυτό να εμπιστεύεστε μόνο εφαρμογές που γνωρίζετε. Το Morphe εξακολουθεί να ελέγχει το πακέτο, την έκδοση και την υπογραφή κάθε αρχείου πριν από την τροποποίηση.</string>
     <string name="settings_system_apk_download_helper_installed_by">Εγκαταστάθηκε από %s</string>
     <string name="settings_system_apk_download_helper_installed_by_unknown">Άγνωστος εγκαταστάτης</string>
     <!-- File Picker -->
@@ -1248,6 +1248,7 @@ morphe_header_custom_dark.png
     <string name="no">Όχι</string>
     <string name="all">Όλα</string>
     <string name="filter">Φίλτρο</string>
+    <string name="group">Ομαδοποίηση</string>
     <string name="reset">Επαναφορά</string>
     <string name="reset_all">Επαναφορά Όλων</string>
     <string name="apply">Εφαρμογή</string>

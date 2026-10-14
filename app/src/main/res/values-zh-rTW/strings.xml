@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">已使用 Morphe 修補但已不在這部裝置上的應用程式</string>
     <string name="home_app_filter_clones">克隆</string>
     <string name="home_app_filter_clones_description">使用自己的套件名稱建置，並與原始應用程式一同安裝的應用程式</string>
+    <string name="home_app_grouping_all_apps_description">所有應用程式的列表</string>
+    <string name="home_app_grouping_sources_description">提供這些應用程式的來源套件的應用程式</string>
+    <string name="home_app_grouping_custom_description">你所建立的應用程式類別</string>
     <string name="home_app_sort_manual_description">長按應用程式，然後點選重新排序按鈕</string>
     <string name="home_app_sort_recommended">推薦順序</string>
     <string name="home_app_sort_recommended_description">優先顯示已安裝和固定應用程式</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">修補來源</string>
     <string name="sources_search">搜尋來源與修補程式</string>
-    <string name="sources_sort_title">排序修補來源</string>
     <string name="sources_sort_manual">手動排序</string>
     <string name="sources_sort_manual_hint">長按來源以重新排序</string>
     <string name="sources_sort_last_updated">上次更新</string>
@@ -776,8 +778,6 @@
     <string name="settings_appearance_home_screen">主螢幕</string>
     <string name="settings_appearance_greeting_phrases">問候語</string>
     <string name="settings_appearance_greeting_phrases_subtitle">在主螢幕上顯示問候訊息</string>
-    <string name="settings_appearance_app_grouping">應用程式分組</string>
-    <string name="settings_appearance_app_grouping_description">顯示可依來源或類別將應用程式分組的切換器</string>
     <string name="settings_appearance_repatch_notice">重新修補通知</string>
     <string name="settings_appearance_repatch_notice_description">當已修補的應用程式可重新修補時顯示橫幅</string>
     <string name="settings_appearance_sort_button">排序與篩選按鈕</string>
@@ -1245,6 +1245,7 @@ morphe_header_custom_dark.png
     <string name="no">否</string>
     <string name="all">全部</string>
     <string name="filter">過濾</string>
+    <string name="group">群組</string>
     <string name="reset">重設</string>
     <string name="reset_all">重設全部</string>
     <string name="apply">套用</string>

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Home Screen -->
+    <string name="home_other_apps">Citas lietotnes</string>
+    <string name="home_other_apps_action">Izvēlēties citas lietotnes</string>
+    <string name="home_not_patched_yet">Vēl nav labots</string>
+    <string name="home_unpatched_version_installed">Nelabota versija instalēta</string>
+    <string name="home_unpatched_badge">Nav labots</string>
+    <string name="home_no_patches_available">Nav pieejamu labojumu</string>
+    <string name="home_app_hide_title">Paslēpt šo lietotni?</string>
+    <string name="home_app_hide_message">Šī lietotne būs paslēpta no galvenā ekrāna. Jūs to varat parādīt atkal vēlāk no paslēpto lietotņu saraksta, izmantojot pogu zem šī saraksta</string>
+    <string name="home_app_will_be_hidden">Šī lietotne būs paslēpta</string>
+    <string name="home_app_no_hidden">Nav paslēptu lietotņu</string>
+    <string name="home_app_hidden_apps_title">Slēptās lietotnes</string>
+    <string name="home_app_hidden_apps_hint">Pieskaries, lai parādītu</string>
+    <string name="home_app_patch_sources_description">Avoti, kas nav atzīmēti, netiek piedāvāti, kad šīs lietotnes tiek labotas, un to ielāpi nekad automātiski netiek iekļauti atlasē. Katrs avots paliek aktīvs attiecībā uz visām pārējām lietotnēm</string>
+    <string name="home_app_patch_sources_mixed">Piedāvāts no %1$s no %2$s</string>
+    <string name="home_app_patch_sources_covers">Ir labojumi %1$s no %2$s</string>
+    <string name="home_app_patch_sources_last">Katrai lietotnei ir nepieciešams viens atlikušais avots, no kura labot</string>
+    <string name="android_11_bug_dialog_title">Android 11 kļūda</string>
+    <string name="android_11_bug_dialog_description">Atļauja lietotnes instalēšanai ir jāpiešķir iepriekš, lai izvairītos no kļūdas Android 11 sistēmā, kas negatīvi ietekmētu lietotāja pieredzi</string>
+    <string name="deep_link_add_source_title">Pievienot avotu</string>
+    <string name="deep_link_add_source_message">Vai Jūs vēlaties pievienot šo labojuma avotu iekš Morphe?</string>
+    <string name="deep_link_add_source_warning">Pievienot tikai Jums uzticamus avotus</string>
     <!-- Home Screen - Update Notifications -->
+    <string name="home_update_available">Morphe atjauninājums ir pieejams</string>
+    <string name="home_update_available_subtitle">Jauna versija ir gatava instalēšanai</string>
     <!-- Home Screen - Home Greetings -->
     <!-- Humorous hype message with light nostalgia -->
     <!-- "Buckle up" referring to fastening your vehicle seat belt. A light-hearted joke to build excitement -->

@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Morphe দিয়ে প্যাচ করা অ্যাপগুলো যেগুলো আর এই ডিভাইসে নেই</string>
     <string name="home_app_filter_clones">ক্লোন</string>
     <string name="home_app_filter_clones_description">নিজস্ব প্যাকেজ নামে তৈরি, মূল অ্যাপের পাশাপাশি ইনস্টল করা অ্যাপ</string>
+    <string name="home_app_grouping_all_apps_description">প্রতিটি অ্যাপসহ একটি তালিকা</string>
+    <string name="home_app_grouping_sources_description">যারা সেগুলো সরবরাহ করে সেই পেচ উৎসের অধীনে অ্যাপস</string>
+    <string name="home_app_grouping_custom_description">আপনি যে বিষয়শ্রেণীগুলো তৈরি করেন তাতে অ্যাপস</string>
     <string name="home_app_sort_manual_description">কোনো অ্যাপ দীর্ঘক্ষণ চাপুন, তারপর পুনর্বিন্যাস বোতামে আলতো চাপুন</string>
     <string name="home_app_sort_recommended">সুপারিশকৃত ক্রম</string>
     <string name="home_app_sort_recommended_description">ইনস্টল করা এবং পিন করা অ্যাপগুলি প্রথমে</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">প্যাচ সোর্সগুলো</string>
     <string name="sources_search">উৎস এবং প্যাচ অনুসন্ধান করুন</string>
-    <string name="sources_sort_title">প্যাচ সোর্স সাজান</string>
     <string name="sources_sort_manual">ম্যানুয়াল অর্ডার</string>
     <string name="sources_sort_manual_hint">পুনরায় সাজানোর জন্য একটি উৎসের উপর দীর্ঘক্ষণ চাপুন</string>
     <string name="sources_sort_last_updated">সর্বশেষ আপডেট করা হয়েছে</string>
@@ -777,8 +779,6 @@
     <string name="settings_appearance_home_screen">হোম স্ক্রিন</string>
     <string name="settings_appearance_greeting_phrases">শুভেচ্ছা বার্তা</string>
     <string name="settings_appearance_greeting_phrases_subtitle">হোম স্ক্রিনে একটি শুভেচ্ছা বার্তা দেখান</string>
-    <string name="settings_appearance_app_grouping">অ্যাপ grouping</string>
-    <string name="settings_appearance_app_grouping_description">উৎস বা বিভাগ অনুসারে অ্যাপগুলো গ্রুপ করতে একটি সুইচার দেখান</string>
     <string name="settings_appearance_repatch_notice">পুনরায় প্যাচ বিজ্ঞপ্তি</string>
     <string name="settings_appearance_repatch_notice_description">প্যাচ করা অ্যাপগুলো পুনরায় প্যাচ করা গেলে একটি ব্যানার দেখান</string>
     <string name="settings_appearance_sort_button">সাজানো ও ফিল্টার বাটন</string>
@@ -1240,6 +1240,7 @@ morphe_adaptive_monochrome_custom.xml
     <string name="no">না</string>
     <string name="all">সব</string>
     <string name="filter">ফিল্টার</string>
+    <string name="group">গ্রুপ</string>
     <string name="reset">আবার সেট করুন</string>
     <string name="reset_all">সব রিসেট করুন</string>
     <string name="apply">প্রয়োগ করুন</string>

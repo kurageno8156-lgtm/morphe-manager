@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">التطبيقات المعدّلة باستخدام Morphe التي لم تعد موجودة على هذا الجهاز</string>
     <string name="home_app_filter_clones">المستنسخة</string>
     <string name="home_app_filter_clones_description">تطبيقات تم إنشاؤها باستخدام اسم حزمة مختلف، ومثبتة إلى جانب التطبيق الأصلي</string>
+    <string name="home_app_grouping_all_apps_description">قائمة واحدة تحتوي على كل التطبيقات</string>
+    <string name="home_app_grouping_sources_description">التطبيقات الموجودة ضمن مصدر التعديل التي يوفرها</string>
+    <string name="home_app_grouping_custom_description">التطبيقات في الفئات التي تنشئها</string>
     <string name="home_app_sort_manual_description">اضغط مطولًا على تطبيق، ثم انقر على زر إعادة الترتيب</string>
     <string name="home_app_sort_recommended">الترتيب الموصى به</string>
     <string name="home_app_sort_recommended_description">التطبيقات المنصَّبة والمثبتة أولًا</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">مصادر التعديل</string>
     <string name="sources_search">البحث في المصادر والتعديلات</string>
-    <string name="sources_sort_title">فرز مصادر التعديل</string>
     <string name="sources_sort_manual">ترتيب يدوي</string>
     <string name="sources_sort_manual_hint">اضغط مطولًا على مصدر لإعادة الترتيب</string>
     <string name="sources_sort_last_updated">آخر تحديث</string>
@@ -428,7 +430,7 @@
     <string name="header_creator_guide_positioning_title">الموضع والحجم</string>
     <string name="header_creator_guide_positioning_body">اسحب الصورة واضغط عليها في المحرر، أو اضبط حجمها باستخدام شريط التمرير. يحدد المربع المتقطع موضع الشعار الافتراضي، وتظهر أدلة المحاذاة عندما تتحاذى الصورة معه.</string>
     <!-- Batch patching -->
-    <string name="batch_patch_action">تحديد التعديل</string>
+    <string name="batch_patch_action">تعديل المحدد</string>
     <string name="batch_patch_title">تعديل عدة تطبيقات على دفعات</string>
     <string name="batch_patch_planning">جارٍ إعداد قائمة الانتظار...</string>
     <string name="batch_patch_preparing_next">جارٍ إعداد التطبيق التالي...</string>
@@ -781,8 +783,6 @@
     <string name="settings_appearance_home_screen">الشاشة الرئيسية</string>
     <string name="settings_appearance_greeting_phrases">عبارات الترحيب</string>
     <string name="settings_appearance_greeting_phrases_subtitle">عرض رسالة ترحيب على الشاشة الرئيسية</string>
-    <string name="settings_appearance_app_grouping">تجميع التطبيقات</string>
-    <string name="settings_appearance_app_grouping_description">عرض مفتاح تبديل لتجميع التطبيقات حسب المصدر أو الفئة</string>
     <string name="settings_appearance_repatch_notice">إشعار إعادة التعديل</string>
     <string name="settings_appearance_repatch_notice_description">عرض شريط إعلام عندما يمكن إعادة تعديل التطبيقات المعدلة</string>
     <string name="settings_appearance_sort_button">زر الفرز والتصفية</string>
@@ -857,7 +857,7 @@
     <string name="settings_advanced_update_interval_chip_subtitle">تكرار التحقق في الخلفية</string>
     <string name="settings_advanced_update_interval_battery_warning">قد لا يعمل التحقق في الخلفية بشكل موثوق على بعض الأجهزة. غالبًا ماتقيّد الشركات المصنعة مثل Xiaomi، Huawei، Samsung، و OnePlus عمليات الخلفية بشدة لتوفير البطارية</string>
     <string name="settings_advanced_external_batch_patch">السماح بالمشغلات الخارجية</string>
-    <string name="settings_advanced_external_batch_patch_description">يسمح لتطبيقات الأتمتة ببدء الترقيع الدفعي عبر Intent</string>
+    <string name="settings_advanced_external_batch_patch_description">يسمح لتطبيقات الأتمتة ببدء تعديل عدة تطبيقات عبر Intent</string>
     <string name="external_batch_patch_title">بدء تعديل التطبيقات على دفعات؟</string>
     <string name="external_batch_patch_description">%s يريد من Morphe تعديل التطبيقات وتثبيتها</string>
     <string name="external_batch_patch_trust_caller">السماح لهذا التطبيق دائمًا</string>
@@ -1253,6 +1253,7 @@ morphe_adaptive_monochrome_custom.xml
     <string name="no">لا</string>
     <string name="all">الكل</string>
     <string name="filter">تصفية</string>
+    <string name="group">مجموعة</string>
     <string name="reset">إعادة التعيين</string>
     <string name="reset_all">إعادة تعيين الكل</string>
     <string name="apply">تطبيق</string>

@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Mga app na na-patch gamit ang Morphe na wala na sa device na ito</string>
     <string name="home_app_filter_clones">Mga clone</string>
     <string name="home_app_filter_clones_description">Mga app na binuo gamit ang sariling package name, na naka-install kasama ng orihinal</string>
+    <string name="home_app_grouping_all_apps_description">Isang listahan ng lahat ng app</string>
+    <string name="home_app_grouping_sources_description">Ang mga app sa ilalim ng source na nagbibigay sa kanila</string>
+    <string name="home_app_grouping_custom_description">Mga app sa mga kategorya na iyong nilikha</string>
     <string name="home_app_sort_manual_description">Pindutin nang matagal ang isang app, pagkatapos ay i-tap ang button na muling ayusin</string>
     <string name="home_app_sort_recommended">Inirerekomendang bersyon</string>
     <string name="home_app_sort_recommended_description">Mga naka-install at naka-pin na app muna</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">I-patch ang mapagkukunan</string>
     <string name="sources_search">Maghanap ng mga source at mga patch</string>
-    <string name="sources_sort_title">Idagdag ang mapagkukunan ng patch</string>
     <string name="sources_sort_manual">Manu-manong pagkakasunud-sunod</string>
     <string name="sources_sort_manual_hint">Pindutin nang matagal ang isang pinagmulan upang muling ayusin</string>
     <string name="sources_sort_last_updated">Huling in-update</string>
@@ -777,8 +779,6 @@ Ang pag-uninstall ay permanenteng bubura sa lahat ng data ng app."</string>
     <string name="settings_appearance_home_screen">Pangunahing iskrin</string>
     <string name="settings_appearance_greeting_phrases">Mga pagbati</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Ipakita ang mensahe ng pagbati sa pangunahing iskrin</string>
-    <string name="settings_appearance_app_grouping">Pagpapangkat ng app</string>
-    <string name="settings_appearance_app_grouping_description">Magpakita ng pampaglipat upang pangkatin ang mga app ayon sa pinagmulan o kategorya.</string>
     <string name="settings_appearance_repatch_notice">Paunawa sa muling pag-patch</string>
     <string name="settings_appearance_repatch_notice_description">Magpakita ng banner kapag ang mga na-patch na app ay maaari nang i-patch muli.</string>
     <string name="settings_appearance_sort_button">Button ng pag-uuri at pagsala</string>
@@ -1248,6 +1248,7 @@ Mga Detalye: %2$s"</string>
     <string name="no">Hindi</string>
     <string name="all">Lahat</string>
     <string name="filter">Salain</string>
+    <string name="group">Pagkakumpuha</string>
     <string name="reset">Ipawalang-bisa</string>
     <string name="reset_all">Ipawalang-bisa lahat</string>
     <string name="apply">Ilapat</string>

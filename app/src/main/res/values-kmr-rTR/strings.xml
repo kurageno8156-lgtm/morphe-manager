@@ -146,7 +146,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Kanalan saz bike</string>
     <string name="sources_search">Çavkanî û patchan bigere</string>
-    <string name="sources_sort_title">Sort kirina çavkaniyên patchê</string>
     <string name="sources_sort_manual">Fermanê destî</string>
     <string name="sources_sort_manual_hint">Çavdêriyeke dirêj li ser çavkaniyê bike da ku rêzê guhezîne</string>
     <string name="sources_sort_last_updated">Daxwazkirina herî dawî</string>
@@ -756,8 +755,6 @@ Neqişandin dê hemî daneyên serîlêdanê bi awayê daîmî tune bike"</strin
     <string name="settings_appearance_home_screen">Mîna malê</string>
     <string name="settings_appearance_greeting_phrases">Frazey şahê</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Nîşanekê bi xêrhatinê li ser mîna malê nîşan bide</string>
-    <string name="settings_appearance_app_grouping">Komkirina sepanan</string>
-    <string name="settings_appearance_app_grouping_description">Guhêrkekê nîşan bide ku sepanan li gorî çavkanî an kategoriyê kom dike.</string>
     <string name="settings_appearance_repatch_notice">Agahdariya ji nû ve patchkirinê</string>
     <string name="settings_appearance_repatch_notice_description">Dema ku sepanên patchkirî dikarin dîsa bên patchkirin, banerekê nîşan bide.</string>
     <string name="settings_appearance_sort_button">Bişkoka rêzkirin û parzûnkirinê</string>

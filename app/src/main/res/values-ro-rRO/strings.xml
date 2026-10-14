@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Aplicații patch-uite cu Morphe care nu mai sunt pe acest dispozitiv</string>
     <string name="home_app_filter_clones">Clone</string>
     <string name="home_app_filter_clones_description">Aplicații create sub un nume de pachet propriu, instalate alături de original</string>
+    <string name="home_app_grouping_all_apps_description">O listă cu toate aplicațiile</string>
+    <string name="home_app_grouping_sources_description">Aplicații din sursa de parchet care le furnizează</string>
+    <string name="home_app_grouping_custom_description">Aplicații în categoriile pe care le creați</string>
     <string name="home_app_sort_manual_description">Apăsați lung pe o aplicație, apoi atingeți butonul de reordonare</string>
     <string name="home_app_sort_recommended">Ordinare recomandată</string>
     <string name="home_app_sort_recommended_description">Aplicațiile instalate și fixate primele</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Surse de patch-uri</string>
     <string name="sources_search">Caută surse și patch-uri</string>
-    <string name="sources_sort_title">Sortare surse de patch-uri</string>
     <string name="sources_sort_manual">Comandă manuală</string>
     <string name="sources_sort_manual_hint">Țineți apăsat pe o sursă pentru a reordona</string>
     <string name="sources_sort_last_updated">Ultima actualizare</string>
@@ -776,8 +778,6 @@ Dezinstalarea va șterge definitiv toate datele aplicației."</string>
     <string name="settings_appearance_home_screen">Ecran de pornire</string>
     <string name="settings_appearance_greeting_phrases">Fraze de salut</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Afișează un mesaj de întâmpinare pe ecranul de pornire</string>
-    <string name="settings_appearance_app_grouping">Gruparea aplicațiilor</string>
-    <string name="settings_appearance_app_grouping_description">Afișează un comutator pentru a grupa aplicațiile după sursă sau categorie</string>
     <string name="settings_appearance_repatch_notice">Notificare privind repatch-uirea</string>
     <string name="settings_appearance_repatch_notice_description">Afișează un banner când aplicațiile patch-uite pot fi re-patch-uite</string>
     <string name="settings_appearance_sort_button">Buton de sortare și filtrare</string>
@@ -1247,6 +1247,7 @@ Detalii: %2$s"</string>
     <string name="no">Nu</string>
     <string name="all">Toți</string>
     <string name="filter">Filtru</string>
+    <string name="group">Grupare</string>
     <string name="reset">Resetează</string>
     <string name="reset_all">Resetează tot</string>
     <string name="apply">Aplică</string>

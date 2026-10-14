@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Aplikacije patchane s Morpheom koje više nisu na ovom uređaju</string>
     <string name="home_app_filter_clones">Klonovi</string>
     <string name="home_app_filter_clones_description">Aplikacije izgrađene pod vlastitim nazivom paketa, instalirane uz original</string>
+    <string name="home_app_grouping_all_apps_description">Jedan popis svih aplikacija</string>
+    <string name="home_app_grouping_sources_description">Aplikacije iz izvora patcheva koji ih pruža</string>
+    <string name="home_app_grouping_custom_description">Aplikacije u kategorijama koje stvarate</string>
     <string name="home_app_sort_manual_description">Dugo pritisnite aplikaciju, a zatim dodirnite tipku za promjenu redoslijeda</string>
     <string name="home_app_sort_recommended">Preporučeni redoslijed</string>
     <string name="home_app_sort_recommended_description">Instalirane i pričvršćene aplikacije prvo</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Izvori patcheva</string>
     <string name="sources_search">Pretraži izvore i zakrpe</string>
-    <string name="sources_sort_title">Poredaj izvore patcheva</string>
     <string name="sources_sort_manual">Ručni redoslijed</string>
     <string name="sources_sort_manual_hint">Dugo pritisnite izvor za promjenu redoslijeda</string>
     <string name="sources_sort_last_updated">Zadnje ažurirano</string>
@@ -780,8 +782,6 @@ Deinstaliranje će trajno izbrisati sve podatke aplikacije"</string>
     <string name="settings_appearance_home_screen">Početni zaslon</string>
     <string name="settings_appearance_greeting_phrases">Pozdravne fraze</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Prikaži poruku dobrodošlice na početnom zaslonu</string>
-    <string name="settings_appearance_app_grouping">Grupiranje aplikacija</string>
-    <string name="settings_appearance_app_grouping_description">Prikaži prekidač za grupiranje aplikacija po izvoru ili kategoriji</string>
     <string name="settings_appearance_repatch_notice">Obavijest o ponovnom patchanju</string>
     <string name="settings_appearance_repatch_notice_description">Prikaži obavijest kada se patchane aplikacije mogu ponovno patchati</string>
     <string name="settings_appearance_sort_button">Tipka za sortiranje i filtriranje</string>
@@ -1251,6 +1251,7 @@ Detalji: %2$s"</string>
     <string name="no">Ne</string>
     <string name="all">Svi</string>
     <string name="filter">Filter</string>
+    <string name="group">Grupa</string>
     <string name="reset">Poništi</string>
     <string name="reset_all">Poništi sve</string>
     <string name="apply">Primjeni</string>

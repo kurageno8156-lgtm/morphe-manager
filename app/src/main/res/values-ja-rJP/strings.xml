@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Morphe でパッチを適用した後、このデバイスから削除されたアプリ</string>
     <string name="home_app_filter_clones">クローン</string>
     <string name="home_app_filter_clones_description">独自のパッケージ名でビルドされ、オリジナルのアプリと一緒にインストールできるアプリ</string>
+    <string name="home_app_grouping_all_apps_description">すべてのアプリを含むリスト</string>
+    <string name="home_app_grouping_sources_description">それらを提供するパッチソースの下にあるアプリ</string>
+    <string name="home_app_grouping_custom_description">作成したカテゴリ内のアプリ</string>
     <string name="home_app_sort_manual_description">並べ替えるには、アプリを長押しして並べ替えボタンをタップ</string>
     <string name="home_app_sort_recommended">推奨順</string>
     <string name="home_app_sort_recommended_description">インストール済みのアプリとピン留め済みのアプリを優先</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">パッチソース</string>
     <string name="sources_search">ソースとパッチを検索</string>
-    <string name="sources_sort_title">パッチソースを並べ替え</string>
     <string name="sources_sort_manual">手動</string>
     <string name="sources_sort_manual_hint">ソースを長押しして並べ替え</string>
     <string name="sources_sort_last_updated">最終更新日</string>
@@ -405,10 +407,10 @@
     <string name="adaptive_icon_created_success">アダプティブ アイコンの作成に成功しました</string>
     <string name="adaptive_icon_creation_failed">アダプティブ アイコンの作成に失敗しました</string>
     <string name="adaptive_icon_guide">アイコン作成ガイド</string>
-    <string name="adaptive_icon_guide_png_title">背景が透明な PNG を使用する</string>
-    <string name="adaptive_icon_guide_png_body">透明背景のロゴを使う場合、下で選択した背景色が適用されます。透明部分のない画像はアイコン全体に表示され、テーマアイコンと通知アイコンには Morphe のロゴがそのまま表示されます</string>
+    <string name="adaptive_icon_guide_png_title">背景が透明な PNG の使用</string>
+    <string name="adaptive_icon_guide_png_body">背景が透明なロゴを使うのがベストです。背景色には下で選択したものが適用されます。透明部分がないロゴの場合、画像はアイコン全体に表示され、テーマアイコンと通知アイコンには Morphe のロゴがそのまま表示されます</string>
     <string name="adaptive_icon_guide_safe_zones_title">セーフゾーン</string>
-    <string name="adaptive_icon_guide_safe_zones_body">アウトラインはお使いのランチャーのアイコンの形を示しており、その外側は切り取られます。ランチャーによってアイコンの形は異なるため、どの形のアイコンでも見切れないよう、重要な部分は破線の円の内側に収めてください</string>
+    <string name="adaptive_icon_guide_safe_zones_body">アウトラインはランチャーのアイコンの形を示しており、その外側は切り取られます。ランチャーによってアイコンの形は異なるため、どの形のアイコンでも見切れないよう、重要な部分は破線の円の内側に収めてください</string>
     <string name="adaptive_icon_guide_notification_title">通知アイコン</string>
     <string name="adaptive_icon_guide_notification_body">画像の表示範囲から切り抜きます。画像ファイルの余白に関係なく、ステータスバーの他のアイコンと同じ大きさに調整されます。プレビューの下にあるスライダーでサイズを調整してください。Android では単色で表示されます</string>
     <string name="adaptive_icon_guide_monochrome_title">テーマアイコン</string>
@@ -424,7 +426,7 @@
     <string name="header_creator_guide_image_title">画像の要件</string>
     <string name="header_creator_guide_image_body">透明背景の PNG 画像を使うと、アプリバーの背景になじみます。画像ファイル内のロゴ周囲の余白は無視され、標準のロゴと同じ位置・サイズで表示されます</string>
     <string name="header_creator_guide_themes_title">ライトテーマとダークテーマ</string>
-    <string name="header_creator_guide_themes_body">多くのアプリでは、ライトテーマ用とダークテーマ用にそれぞれ画像が必要です。一部のアプリ（YouTube Music など）はダークテーマのみを使用するため、該当するセクションのみ表示されます。</string>
+    <string name="header_creator_guide_themes_body">ほとんどのアプリでは、ライトテーマ用とダークテーマ用にそれぞれ画像が必要です。ただし、YouTube Music など、ダークテーマのみを使用するアプリでは、ダークテーマ用の項目だけが表示されます</string>
     <string name="header_creator_guide_positioning_title">位置とサイズ調整</string>
     <string name="header_creator_guide_positioning_body">編集画面で画像をドラッグしたり、ピンチ操作で拡大・縮小したり、スライダーでサイズを調整できます。破線の枠は標準のロゴの位置を示しており、画像がその位置と重なるとガイドが表示されます</string>
     <!-- Batch patching -->
@@ -777,8 +779,6 @@
     <string name="settings_appearance_home_screen">ホーム画面</string>
     <string name="settings_appearance_greeting_phrases">挨拶メッセージ</string>
     <string name="settings_appearance_greeting_phrases_subtitle">ホーム画面に挨拶メッセージを表示します</string>
-    <string name="settings_appearance_app_grouping">アプリのグループ化</string>
-    <string name="settings_appearance_app_grouping_description">ソースやカテゴリごとにアプリをまとめるスイッチャーを表示します</string>
     <string name="settings_appearance_repatch_notice">再パッチ通知</string>
     <string name="settings_appearance_repatch_notice_description">再パッチ可能なアプリがある場合、バナーを表示します</string>
     <string name="settings_appearance_sort_button">並べ替えとフィルターボタン</string>
@@ -1249,6 +1249,7 @@ morphe_header_custom_dark.png
     <string name="no">いいえ</string>
     <string name="all">すべて</string>
     <string name="filter">フィルター</string>
+    <string name="group">グループ</string>
     <string name="reset">リセット</string>
     <string name="reset_all">すべてリセット</string>
     <string name="apply">適用</string>

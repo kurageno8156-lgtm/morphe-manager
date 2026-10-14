@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Aplikacije zakrpljene pomoću Morphe-a koje više nisu na ovom uređaju</string>
     <string name="home_app_filter_clones">Klonovi</string>
     <string name="home_app_filter_clones_description">Aplikacije napravljene pod sopstvenim imenom paketa, instalirane pored originala</string>
+    <string name="home_app_grouping_all_apps_description">Jedna lista sa svim aplikacijama</string>
+    <string name="home_app_grouping_sources_description">Aplikacije izvoru koji ih obezbeđuje</string>
+    <string name="home_app_grouping_custom_description">Aplikacije u kategorijama koje kreirate</string>
     <string name="home_app_sort_manual_description">Pritisnite i zadržite aplikaciju, zatim dodirnite dugme za promenu reda</string>
     <string name="home_app_sort_recommended">Preporučeni redosled</string>
     <string name="home_app_sort_recommended_description">Instalirane i pričvršćene aplikacije prvo</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Izvori zakrpe</string>
     <string name="sources_search">Pretraži izvore i zakrpe</string>
-    <string name="sources_sort_title">Sortiraj izvore zakrpa</string>
     <string name="sources_sort_manual">Ručna postavka</string>
     <string name="sources_sort_manual_hint">Pritisnite i zadržite izvor da biste ga preuredili</string>
     <string name="sources_sort_last_updated">Zadnje ažuriranje</string>
@@ -777,8 +779,6 @@ Deinstalacija će trajno obrisati sve podatke aplikacije"</string>
     <string name="settings_appearance_home_screen">Početni ekran</string>
     <string name="settings_appearance_greeting_phrases">Pozdravne poruke</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Prikaži poruku dobrodošlice na početnom ekranu</string>
-    <string name="settings_appearance_app_grouping">Grupisanje aplikacija</string>
-    <string name="settings_appearance_app_grouping_description">Prikaži prekidač za grupisanje aplikacija po izvoru ili kategoriji</string>
     <string name="settings_appearance_repatch_notice">Obaveštenje o ponovnom zakrpavanju</string>
     <string name="settings_appearance_repatch_notice_description">Prikaži baner kada se već zakrpljene aplikacije mogu ponovo zakrpiti</string>
     <string name="settings_appearance_sort_button">Dugme za sortiranje i filtriranje</string>
@@ -1232,6 +1232,7 @@ Detalji: %2$s"</string>
     <string name="no">Ne</string>
     <string name="all">Sve</string>
     <string name="filter">Filter</string>
+    <string name="group">Grupa</string>
     <string name="reset">Poništi</string>
     <string name="reset_all">Poništi sve</string>
     <string name="apply">Primeni</string>

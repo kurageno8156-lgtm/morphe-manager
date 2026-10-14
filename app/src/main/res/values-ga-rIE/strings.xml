@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Aipeanna atá paisteáilte le Morphe nach bhfuil ar an ngléas seo a thuilleadh</string>
     <string name="home_app_filter_clones">Clóin</string>
     <string name="home_app_filter_clones_description">Aipeanna a tógadh faoi ainm pacáiste dá gcuid féin, suiteáilte taobh leis an gceann bunaidh</string>
+    <string name="home_app_grouping_all_apps_description">Liosta amháin le gach aip</string>
+    <string name="home_app_grouping_sources_description">Aipeanna faoin bhfoinse pleata atá ag soláthar dóibh</string>
+    <string name="home_app_grouping_custom_description">Aipeanna i gcatagoírí a chruthaíonn tú féin</string>
     <string name="home_app_sort_manual_description">Brúigh go fada ar aip, ansin tapáil an cnaipe athordaithe</string>
     <string name="home_app_sort_recommended">Ordú molta</string>
     <string name="home_app_sort_recommended_description">Aipeanna suiteáilte agus bioráilte ar dtús</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Foinsí paiste</string>
     <string name="sources_search">Cuardaigh foinsí agus paistí</string>
-    <string name="sources_sort_title">Sórtáil foinsí paiste</string>
     <string name="sources_sort_manual">Ordú láimhe</string>
     <string name="sources_sort_manual_hint">Brúigh suas le foinse le hathordú</string>
     <string name="sources_sort_last_updated">Nuashonraithe is déanaí</string>
@@ -777,8 +779,6 @@ Scriosfaidh díshuiteáil gach sonraí aip go buan."</string>
     <string name="settings_appearance_home_screen">Home screen</string>
     <string name="settings_appearance_greeting_phrases">Frásaí beannachta</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Taispeáin teachtaireacht beannachta ar an scáileán baile</string>
-    <string name="settings_appearance_app_grouping">Grúpáil aipeanna</string>
-    <string name="settings_appearance_app_grouping_description">Taispeáin lasc chun aipeanna a ghrúpáil de réir foinse nó catagóire</string>
     <string name="settings_appearance_repatch_notice">Fógra athphaisteála</string>
     <string name="settings_appearance_repatch_notice_description">Taispeáin bratach nuair is féidir aipeanna a bhfuil paiste curtha orthu cheana a phaisteáil arís</string>
     <string name="settings_appearance_sort_button">Cnaipe sórtála agus scagaire</string>
@@ -1246,6 +1246,7 @@ Sonraí: %2$s"</string>
     <string name="no">Níl</string>
     <string name="all">Gach</string>
     <string name="filter">Scagaire</string>
+    <string name="group">Grúpáil</string>
     <string name="reset">Athshocraigh</string>
     <string name="reset_all">Athshocraigh Gach Rud</string>
     <string name="apply">Cuir i bhfeidhm</string>

@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Приложения, пачвани с Morphe, които вече не са на това устройство</string>
     <string name="home_app_filter_clones">Клонинги</string>
     <string name="home_app_filter_clones_description">Приложения, създадени под собствено име на пакета, инсталирани заедно с оригинала</string>
+    <string name="home_app_grouping_all_apps_description">Един списък с всяко приложение</string>
+    <string name="home_app_grouping_sources_description">Приложения под източника на патч, който ги предоставя</string>
+    <string name="home_app_grouping_custom_description">Приложения в категории, които създавате</string>
     <string name="home_app_sort_manual_description">Натиснете и задръжте приложение, след което докоснете бутона за пренареждане</string>
     <string name="home_app_sort_recommended">Препоръчителен ред</string>
     <string name="home_app_sort_recommended_description">Инсталирани и закрепени приложения първо</string>
@@ -147,7 +150,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Източници за поправки</string>
     <string name="sources_search">Търсене на източници и кръпки</string>
-    <string name="sources_sort_title">Сортиране на източници на поправки</string>
     <string name="sources_sort_manual">Ръчна подредба</string>
     <string name="sources_sort_manual_hint">Натиснете и задръжте източник, за да го пренаредите</string>
     <string name="sources_sort_last_updated">Последна актуализация</string>
@@ -777,8 +779,6 @@
     <string name="settings_appearance_home_screen">Начален екран</string>
     <string name="settings_appearance_greeting_phrases">Поздравителни фрази</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Показване на поздравително съобщение на началния екран</string>
-    <string name="settings_appearance_app_grouping">Групиране на приложения</string>
-    <string name="settings_appearance_app_grouping_description">Показване на превключвател за групиране на приложенията по източник или категория</string>
     <string name="settings_appearance_repatch_notice">Известие за повторно кръпване</string>
     <string name="settings_appearance_repatch_notice_description">Показване на банер, когато приложенията с кръпки могат да бъдат кръпени отново</string>
     <string name="settings_appearance_sort_button">Бутон за сортиране и филтриране</string>
@@ -1248,6 +1248,7 @@ morphe_header_custom_dark.png
     <string name="no">Не</string>
     <string name="all">Всички</string>
     <string name="filter">Филтър</string>
+    <string name="group">Групиране</string>
     <string name="reset">Нулирай</string>
     <string name="reset_all">Възстановяване на всичко</string>
     <string name="apply">Приложи</string>

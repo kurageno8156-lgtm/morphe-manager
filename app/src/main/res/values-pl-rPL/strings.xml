@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Aplikacje zmodyfikowane za pomocą Morphe, których nie ma już na tym urządzeniu</string>
     <string name="home_app_filter_clones">Klony</string>
     <string name="home_app_filter_clones_description">Aplikacje zbudowane pod własną nazwą pakietu, zainstalowane obok oryginału</string>
+    <string name="home_app_grouping_all_apps_description">Jedna lista ze wszystkimi aplikacjami</string>
+    <string name="home_app_grouping_sources_description">Aplikacje pogrupowane według źródła modyfikacji, z którego pochodzą</string>
+    <string name="home_app_grouping_custom_description">Aplikacje w utworzonych przez Ciebie kategoriach</string>
     <string name="home_app_sort_manual_description">Przytrzymaj aplikację, a następnie dotknij przycisku zmiany kolejności</string>
     <string name="home_app_sort_recommended">Zalecana kolejność</string>
     <string name="home_app_sort_recommended_description">Najpierw zainstalowane i przypięte aplikacje</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Źródła modyfikacji</string>
     <string name="sources_search">Szukaj źródeł i modyfikacji</string>
-    <string name="sources_sort_title">Sortuj źródła modyfikacji</string>
     <string name="sources_sort_manual">Ręczna kolejność</string>
     <string name="sources_sort_manual_hint">Przytrzymaj źródło, aby zmienić kolejność</string>
     <string name="sources_sort_last_updated">Ostatnia aktualizacja</string>
@@ -538,7 +540,7 @@ Aby uzyskać najlepszy efekt, zalecamy zmodyfikowanie &lt;b&gt;pełnego pliku AP
     <!-- Field labels, shown in a column beside their values. Keep them short, a long one is cut off rather than wrapped -->
     <string name="patcher_field_app">Aplikacja</string>
     <string name="patcher_field_package">Pakiet</string>
-    <string name="patcher_field_failed_patch">Nieudana poprawka</string>
+    <string name="patcher_field_failed_patch">Nieudana modyfikacja</string>
     <string name="patcher_field_source">Źródło</string>
     <string name="patcher_field_split">Podzielony plik APK</string>
     <string name="patcher_field_manager">Menedżer</string>
@@ -778,8 +780,6 @@ Odinstalowanie bezpowrotnie usunie wszystkie dane aplikacji"</string>
     <string name="settings_appearance_home_screen">Ekran główny</string>
     <string name="settings_appearance_greeting_phrases">Powitania</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Wyświetlaj powitanie na ekranie głównym</string>
-    <string name="settings_appearance_app_grouping">Grupowanie aplikacji</string>
-    <string name="settings_appearance_app_grouping_description">Pokaż przełącznik do grupowania aplikacji według źródła lub kategorii</string>
     <string name="settings_appearance_repatch_notice">Powiadomienie o ponownym modyfikowaniu</string>
     <string name="settings_appearance_repatch_notice_description">Pokazuj baner, gdy można ponownie zmodyfikować aplikacje</string>
     <string name="settings_appearance_sort_button">Przycisk sortowania i filtrowania</string>
@@ -1249,6 +1249,7 @@ Wymagane są następujące wymiary obrazów:
     <string name="no">Nie</string>
     <string name="all">Wszystkie</string>
     <string name="filter">Filtr</string>
+    <string name="group">Grupuj</string>
     <string name="reset">Zresetuj</string>
     <string name="reset_all">Zresetuj wszystko</string>
     <string name="apply">Zastosuj</string>

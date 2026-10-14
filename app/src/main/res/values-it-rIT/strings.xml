@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">App patchate con Morphe che non sono più presenti su questo dispositivo</string>
     <string name="home_app_filter_clones">Cloni</string>
     <string name="home_app_filter_clones_description">App create con un nome pacchetto proprio, installate accanto all\'originale</string>
+    <string name="home_app_grouping_all_apps_description">Una lista con ogni app</string>
+    <string name="home_app_grouping_sources_description">App sotto la sorgente patch che le fornisce</string>
+    <string name="home_app_grouping_custom_description">App nelle categorie che crei</string>
     <string name="home_app_sort_manual_description">Tieni premuta un\'app, quindi tocca il pulsante di riordino</string>
     <string name="home_app_sort_recommended">Ordine consigliato</string>
     <string name="home_app_sort_recommended_description">App installate e fissate per prime</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Fonti delle patch</string>
     <string name="sources_search">Cerca fonti e patch</string>
-    <string name="sources_sort_title">Ordina fonti patch</string>
     <string name="sources_sort_manual">Ordine manuale</string>
     <string name="sources_sort_manual_hint">Tieni premuto un elemento per riordinarlo</string>
     <string name="sources_sort_last_updated">Ultimo aggiornamento</string>
@@ -777,8 +779,6 @@ La disinstallazione cancellerà definitivamente tutti i dati dell'app."</string>
     <string name="settings_appearance_home_screen">Schermata home</string>
     <string name="settings_appearance_greeting_phrases">Frasi di saluto</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Mostra un messaggio di saluto nella schermata principale</string>
-    <string name="settings_appearance_app_grouping">Raggruppamento app</string>
-    <string name="settings_appearance_app_grouping_description">Mostra un interruttore per raggruppare le app per origine o categoria</string>
     <string name="settings_appearance_repatch_notice">Avviso di re-patch</string>
     <string name="settings_appearance_repatch_notice_description">Mostra un banner quando le app patchate possono essere ri-patchate</string>
     <string name="settings_appearance_sort_button">Pulsante per ordinare e filtrare</string>
@@ -1248,6 +1248,7 @@ Dettagli: %2$s"</string>
     <string name="no">No</string>
     <string name="all">Tutto</string>
     <string name="filter">Filtra</string>
+    <string name="group">Raggruppa</string>
     <string name="reset">Reimposta</string>
     <string name="reset_all">Ripristina Tutto</string>
     <string name="apply">Applica</string>

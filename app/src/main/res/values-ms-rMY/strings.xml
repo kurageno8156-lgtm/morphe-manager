@@ -146,7 +146,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Tampalan sumber-sumber</string>
     <string name="sources_search">Cari sumber dan tampalan</string>
-    <string name="sources_sort_title">Isih sumber tampalan</string>
     <string name="sources_sort_manual">Susunan manual</string>
     <string name="sources_sort_manual_hint">Tekan lama sumber untuk menyusun semula</string>
     <string name="sources_sort_last_updated">Kemas kini terakhir</string>
@@ -759,8 +758,6 @@ Nyahpasang akan memadam semua data aplikasi secara kekal"</string>
     <string name="settings_appearance_home_screen">Skrin utama</string>
     <string name="settings_appearance_greeting_phrases">Frasa ucapan</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Paparkan mesej ucapan pada skrin utama</string>
-    <string name="settings_appearance_app_grouping">Pengumpulan aplikasi</string>
-    <string name="settings_appearance_app_grouping_description">Paparkan pensuis untuk mengumpulkan aplikasi mengikut sumber atau kategori</string>
     <string name="settings_appearance_repatch_notice">Notis tampalan semula</string>
     <string name="settings_appearance_repatch_notice_description">Paparkan sepanduk apabila aplikasi bertampal boleh ditampal semula</string>
     <string name="settings_appearance_sort_button">Butang isih dan tapis</string>

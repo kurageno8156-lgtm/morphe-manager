@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Апликације закрпљене помоћу Morphe-а које више нису на овом уређају</string>
     <string name="home_app_filter_clones">Клонови</string>
     <string name="home_app_filter_clones_description">Апликације направљене под сопственим именом пакета, инсталиране уз оригинал</string>
+    <string name="home_app_grouping_all_apps_description">Једна листе са свим апликацијама</string>
+    <string name="home_app_grouping_sources_description">Апликације испод извора за патче који их пружа</string>
+    <string name="home_app_grouping_custom_description">Апликације у категоријама које креирате</string>
     <string name="home_app_sort_manual_description">Притисните и задржите апликацију, затим додирните дугме за поредање</string>
     <string name="home_app_sort_recommended">Препоручени поредак</string>
     <string name="home_app_sort_recommended_description">Инсталиране и причвршћене апликације прво</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Извор печовања</string>
     <string name="sources_search">Претражите изворе и закрпе</string>
-    <string name="sources_sort_title">Сортирај изворе закрпа</string>
     <string name="sources_sort_manual">Ручно поређање</string>
     <string name="sources_sort_manual_hint">Притисните и задржите извор да бисте променили редослед</string>
     <string name="sources_sort_last_updated">Последње ажурирање</string>
@@ -777,8 +779,6 @@
     <string name="settings_appearance_home_screen">Почетни екран</string>
     <string name="settings_appearance_greeting_phrases">Почетне фразе</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Прикажи поруку на почетном екрану</string>
-    <string name="settings_appearance_app_grouping">Груписање апликација</string>
-    <string name="settings_appearance_app_grouping_description">Прикажи прекидач за груписање апликација по извору или категорији</string>
     <string name="settings_appearance_repatch_notice">Обавештење о поновном закрпавању</string>
     <string name="settings_appearance_repatch_notice_description">Прикажи банер када се закрпљене апликације могу поново закрпити</string>
     <string name="settings_appearance_sort_button">Дугме за сортирање и филтрирање</string>
@@ -1248,6 +1248,7 @@ morphe_header_custom_dark.png
     <string name="no">Не</string>
     <string name="all">Сви</string>
     <string name="filter">Филтер</string>
+    <string name="group">Групирај</string>
     <string name="reset">Ресетуј</string>
     <string name="reset_all">Ресетуј све</string>
     <string name="apply">Примени</string>

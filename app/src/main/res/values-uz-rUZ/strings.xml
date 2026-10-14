@@ -146,7 +146,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Tuzatish manbalari</string>
     <string name="sources_search">Manbalar va yamoqlarni qidirish</string>
-    <string name="sources_sort_title">Aplikasi dengan lencana pembaruan terlebih dahulu, lalu urutan yang direkomendasikan</string>
     <string name="sources_sort_manual">Pesanan manual</string>
     <string name="sources_sort_manual_hint">Tekan lama sumber untuk mengatur ulang</string>
     <string name="sources_sort_last_updated">Terakhir diperbarui</string>
@@ -757,8 +756,6 @@ O‘rnatish barcha ilova ma'lumotlarini o‘chiradi"</string>
     <string name="settings_appearance_home_screen">Uy ekran</string>
     <string name="settings_appearance_greeting_phrases">Salomlashish iborasi</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Bosh ekranda salomlashish xabarini ko‘rsatish</string>
-    <string name="settings_appearance_app_grouping">Ilovalarni guruhlash</string>
-    <string name="settings_appearance_app_grouping_description">Ilovalarni manba yoki toifa bo‘yicha guruhlash uchun almashtirgichni ko‘rsatish</string>
     <string name="settings_appearance_repatch_notice">Qayta yamash bildirishnomasi</string>
     <string name="settings_appearance_repatch_notice_description">Yamalgan ilovalarni qayta yamash mumkin bo‘lganda banner ko‘rsatish</string>
     <string name="settings_appearance_sort_button">Saralash va filtrlash tugmasi</string>

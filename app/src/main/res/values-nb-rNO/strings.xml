@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Apper patchet med Morphe som ikke lenger er på denne enheten</string>
     <string name="home_app_filter_clones">Kloner</string>
     <string name="home_app_filter_clones_description">Apper bygget under et eget pakkenavn, installert ved siden av originalen</string>
+    <string name="home_app_grouping_all_apps_description">Én liste med alle apper</string>
+    <string name="home_app_grouping_sources_description">Apper under kildekategorien som tilbyr dem</string>
+    <string name="home_app_grouping_custom_description">Apper i kategorier du oppretter</string>
     <string name="home_app_sort_manual_description">Trykk og hold på en app, og trykk deretter på sorter-knappen</string>
     <string name="home_app_sort_recommended">Anbefalt rekkefølge</string>
     <string name="home_app_sort_recommended_description">Installerte og fastsatte apper først</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Patch-kilder</string>
     <string name="sources_search">Søk etter kilder og patcher</string>
-    <string name="sources_sort_title">Sorter patch-kilder</string>
     <string name="sources_sort_manual">Manuell rekkefølge</string>
     <string name="sources_sort_manual_hint">Trykk og hold nede en kilde for å endre rekkefølgen</string>
     <string name="sources_sort_last_updated">Sist oppdatert</string>
@@ -777,8 +779,6 @@ Avinstallering vil permanent slette alle appdata"</string>
     <string name="settings_appearance_home_screen">Hjemmeskjerm</string>
     <string name="settings_appearance_greeting_phrases">Hilsenfraser</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Vis en hilsenmelding på startskjermen</string>
-    <string name="settings_appearance_app_grouping">Appgruppering</string>
-    <string name="settings_appearance_app_grouping_description">Vis en bryter for å gruppere apper etter kilde eller kategori</string>
     <string name="settings_appearance_repatch_notice">Varsel om å lappe på nytt</string>
     <string name="settings_appearance_repatch_notice_description">Vis et banner når lappede apper kan lappes på nytt</string>
     <string name="settings_appearance_sort_button">Sorterings- og filterknapp</string>
@@ -1248,6 +1248,7 @@ Detaljer: %2$s"</string>
     <string name="no">Nei</string>
     <string name="all">Alle</string>
     <string name="filter">Filter</string>
+    <string name="group">Gruppér</string>
     <string name="reset">Tilbakestill</string>
     <string name="reset_all">Tilbakestill alt</string>
     <string name="apply">Bruk</string>

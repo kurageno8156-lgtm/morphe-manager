@@ -109,7 +109,6 @@
     <!-- Pun on the saying "Out with the old, in with the new" -->
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Крыніцы патчаў</string>
-    <string name="sources_sort_title">Сартаваць крыніцы патчаў</string>
     <string name="sources_sort_manual">Ручны парадак</string>
     <string name="sources_sort_manual_hint">Націсніце і ўтрымлівайце крыніцу, каб перарадаваць яе.</string>
     <string name="sources_sort_last_updated">Апошняе абнаўленне</string>

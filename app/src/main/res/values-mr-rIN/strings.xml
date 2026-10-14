@@ -146,7 +146,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">सुधारणांची मुळे</string>
     <string name="sources_search">स्रोत आणि पॅच शोधा</string>
-    <string name="sources_sort_title">सुधारणा स्रोत क्रमवारी लावा</string>
     <string name="sources_sort_manual">मॅन्युअल ऑर्डर</string>
     <string name="sources_sort_manual_hint">पुन्हा क्रमवारी लावण्यासाठी स्रोतावर दाबून ठेवा</string>
     <string name="sources_sort_last_updated">शेवटची अपडेट</string>
@@ -757,8 +756,6 @@
     <string name="settings_appearance_home_screen">मुख्य स्क्रीन</string>
     <string name="settings_appearance_greeting_phrases">शुभेच्छा संदेश</string>
     <string name="settings_appearance_greeting_phrases_subtitle">मुख्य स्क्रीनवर शुभेच्छा संदेश दर्शवा</string>
-    <string name="settings_appearance_app_grouping">ॲप समूहीकरण</string>
-    <string name="settings_appearance_app_grouping_description">अॅप्स स्रोत किंवा श्रेणीनुसार गट करण्यासाठी स्विचर दाखवा</string>
     <string name="settings_appearance_repatch_notice">री-पॅच सूचना</string>
     <string name="settings_appearance_repatch_notice_description">पॅच केलेले अॅप्स पुन्हा पॅच करता येतात तेव्हा बॅनर दाखवा</string>
     <string name="settings_appearance_sort_button">क्रमवारी आणि फिल्टर बटण</string>

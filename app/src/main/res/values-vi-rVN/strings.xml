@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Các ứng dụng từng được vá bằng Morphe nhưng không còn trên thiết bị nữa</string>
     <string name="home_app_filter_clones">Bản sao</string>
     <string name="home_app_filter_clones_description">Các ứng dụng được đựng dưới tên gói riêng, được cài đặt như ứng dụng khác ứng dụng gốc</string>
+    <string name="home_app_grouping_all_apps_description">Một danh sách chứa mọi ứng dụng</string>
+    <string name="home_app_grouping_sources_description">Các ứng dụng nằm trong nguồn patch cung cấp chúng</string>
+    <string name="home_app_grouping_custom_description">Các ứng dụng trong các danh mục do bạn tạo</string>
     <string name="home_app_sort_manual_description">Bấm giữ một ứng dụng, sau đó chọn nút sắp xếp lại</string>
     <string name="home_app_sort_recommended">Thứ tự đề xuất</string>
     <string name="home_app_sort_recommended_description">Ưu tiên ứng dụng đã cài đặt và được ghim trước</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Nguồn vá</string>
     <string name="sources_search">Tìm kiếm nguồn và bản vá</string>
-    <string name="sources_sort_title">Sắp xếp các nguồn vá</string>
     <string name="sources_sort_manual">Sắp xếp thủ công</string>
     <string name="sources_sort_manual_hint">Bấm giữ một nguồn để sắp xếp lại</string>
     <string name="sources_sort_last_updated">Cập nhật lần cuối</string>
@@ -779,8 +781,6 @@ Gỡ cài đặt sẽ xóa vĩnh viễn toàn bộ dữ liệu ứng dụng"</st
     <string name="settings_appearance_home_screen">Trang chủ</string>
     <string name="settings_appearance_greeting_phrases">Thông điệp</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Hiện thông điệp trên trang chủ</string>
-    <string name="settings_appearance_app_grouping">Nhóm ứng dụng</string>
-    <string name="settings_appearance_app_grouping_description">Hiển thị bộ chuyển đổi để nhóm ứng dụng theo nguồn hoặc danh mục</string>
     <string name="settings_appearance_repatch_notice">Thông báo vá lại</string>
     <string name="settings_appearance_repatch_notice_description">Hiển thị biểu ngữ khi các ứng dụng đã vá có thể được vá lại</string>
     <string name="settings_appearance_sort_button">Nút sắp xếp và lọc</string>
@@ -1253,6 +1253,7 @@ Chi tiết: %2$s"</string>
     <string name="no">Không</string>
     <string name="all">Tất cả</string>
     <string name="filter">Bộ lọc</string>
+    <string name="group">Nhóm</string>
     <string name="reset">Đặt lại</string>
     <string name="reset_all">Đặt lại tất cả</string>
     <string name="apply">Áp dụng</string>

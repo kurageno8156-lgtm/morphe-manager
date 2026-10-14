@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Apps die met Morphe zijn gepatcht en niet meer op dit apparaat staan</string>
     <string name="home_app_filter_clones">Klonen</string>
     <string name="home_app_filter_clones_description">Apps die onder een eigen pakketnaam zijn gebouwd en naast het origineel zijn geïnstalleerd</string>
+    <string name="home_app_grouping_all_apps_description">Eén lijst met alle apps</string>
+    <string name="home_app_grouping_sources_description">Apps onder de patchbron die ze biedt</string>
+    <string name="home_app_grouping_custom_description">Apps in categorieën die u maakt</string>
     <string name="home_app_sort_manual_description">Houd een app ingedrukt en tik vervolgens op de herordenen-knop</string>
     <string name="home_app_sort_recommended">Aanbevolen volgorde</string>
     <string name="home_app_sort_recommended_description">Geïnstalleerde en vastgezette apps eerst</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Patchbronnen</string>
     <string name="sources_search">Zoek bronnen en patches</string>
-    <string name="sources_sort_title">Patchbronnen sorteren</string>
     <string name="sources_sort_manual">Handmatige volgorde</string>
     <string name="sources_sort_manual_hint">Houd een bron ingedrukt om de volgorde te wijzigen</string>
     <string name="sources_sort_last_updated">Laatst bijgewerkt</string>
@@ -777,8 +779,6 @@ Deïnstalleren wist alle app-gegevens permanent."</string>
     <string name="settings_appearance_home_screen">Startscherm</string>
     <string name="settings_appearance_greeting_phrases">Begroetingszinnen</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Toon een begroetingsbericht op de startscherm</string>
-    <string name="settings_appearance_app_grouping">App-groepering</string>
-    <string name="settings_appearance_app_grouping_description">Toon een schakelaar om apps te groeperen op bron of categorie</string>
     <string name="settings_appearance_repatch_notice">Melding over opnieuw patchen</string>
     <string name="settings_appearance_repatch_notice_description">Toon een banner wanneer gepatchte apps opnieuw kunnen worden gepatcht</string>
     <string name="settings_appearance_sort_button">Sorteer- en filterknop</string>
@@ -1248,6 +1248,7 @@ Details: %2$s"</string>
     <string name="no">Nee</string>
     <string name="all">Alles</string>
     <string name="filter">Filter</string>
+    <string name="group">Groeperen</string>
     <string name="reset">Reset</string>
     <string name="reset_all">Alles resetten</string>
     <string name="apply">Toepassen</string>

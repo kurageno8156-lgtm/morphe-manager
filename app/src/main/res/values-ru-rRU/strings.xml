@@ -54,6 +54,9 @@
     <string name="home_app_filter_uninstalled_description">Приложения, пропатченные с помощью Morphe, которых больше нет на этом устройстве</string>
     <string name="home_app_filter_clones">Клоны</string>
     <string name="home_app_filter_clones_description">Приложения, созданные под собственным именем пакета, устанавливаются вместе с оригинальным</string>
+    <string name="home_app_grouping_all_apps_description">Один список со всеми приложениями</string>
+    <string name="home_app_grouping_sources_description">Приложения под источником патча, который их предоставляет</string>
+    <string name="home_app_grouping_custom_description">Приложения в категориях, которые вы создаете</string>
     <string name="home_app_sort_manual_description">Нажмите и удерживайте значок приложения, затем нажмите кнопку изменения порядка</string>
     <string name="home_app_sort_recommended">Рекомендуемый порядок</string>
     <string name="home_app_sort_recommended_description">Сначала установленные и закреплённые приложения</string>
@@ -103,8 +106,8 @@
     <!-- Light sarcasm, casual and tech-savvy humor -->
     <string name="home_greeting_10">Работаем на кофеине и хороших патчах</string>
     <!-- Morning greetings (5:00–11:59) -->
-    <string name="home_greeting_morning_1">Вставай и пропатчивай</string>
-    <string name="home_greeting_morning_2">Доброе утро! Приложения сами себя не пропатчат.</string>
+    <string name="home_greeting_morning_1">Проснись и патч</string>
+    <string name="home_greeting_morning_2">Доброе утро! Приложения сами себя не пропатчат</string>
     <!-- Afternoon greetings (12:00–16:59) -->
     <string name="home_greeting_afternoon_1">Послеполуденный спад? Пора что-нибудь пропатчить</string>
     <string name="home_greeting_afternoon_2">Патчи после обеда воспринимаются иначе</string>
@@ -146,7 +149,6 @@
     <!-- Home Screen - Sources Management -->
     <string name="sources_management_title">Источники патчей</string>
     <string name="sources_search">Поиск источников и патчей</string>
-    <string name="sources_sort_title">Сортировка источников патчей</string>
     <string name="sources_sort_manual">Ручная сортировка</string>
     <string name="sources_sort_manual_hint">Нажмите и удерживайте источник, чтобы изменить порядок</string>
     <string name="sources_sort_last_updated">Последнее обновление</string>
@@ -724,7 +726,7 @@
     <string name="settings_appearance_background_circles">Круги</string>
     <string name="settings_appearance_background_rings">Кольца</string>
     <string name="settings_appearance_background_mesh">Сетка</string>
-    <string name="settings_appearance_background_space">Пространство</string>
+    <string name="settings_appearance_background_space">Космос</string>
     <string name="settings_appearance_background_shapes">Формы</string>
     <string name="settings_appearance_background_snow">Снег</string>
     <string name="settings_appearance_background_grid">Сетка</string>
@@ -776,8 +778,6 @@
     <string name="settings_appearance_home_screen">Главный экран</string>
     <string name="settings_appearance_greeting_phrases">Приветственные фразы</string>
     <string name="settings_appearance_greeting_phrases_subtitle">Показывать приветственное сообщение на главном экране</string>
-    <string name="settings_appearance_app_grouping">Группировка приложений</string>
-    <string name="settings_appearance_app_grouping_description">Показывать переключатель для группировки приложений по источнику или категории</string>
     <string name="settings_appearance_repatch_notice">Уведомление о перепатчивании</string>
     <string name="settings_appearance_repatch_notice_description">Показывать баннер, когда пропатченные приложения можно перепатчить</string>
     <string name="settings_appearance_sort_button">Кнопка сортировки и фильтрации</string>
@@ -1247,6 +1247,7 @@ morphe_header_custom_dark.png
     <string name="no">Нет</string>
     <string name="all">Все</string>
     <string name="filter">Фильтр</string>
+    <string name="group">Группировать</string>
     <string name="reset">Сбросить</string>
     <string name="reset_all">Сбросить все</string>
     <string name="apply">Применить</string>
