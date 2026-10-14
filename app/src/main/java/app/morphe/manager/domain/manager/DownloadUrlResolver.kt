@@ -73,6 +73,12 @@ class DownloadUrlResolver(private val morpheAPI: MorpheAPI) {
 
     /** Used when the API is unreachable, so the user still lands on something useful. */
     fun webSearchUrl(packageName: String, version: String?): String {
+        if (
+            packageName == "com.ss.android.ugc.tiktok.lite" &&
+            version == "43.5.3"
+        ) {
+            return "https://www.apkmirror.com/apk/tiktok-pte-ltd/tiktok-lite-3/tiktok-lite-43-5-3-release/tiktok-lite-43-5-3-android-apk-download/"
+        }
         val architecture = if (packageName == KnownApps.YOUTUBE_MUSIC) {
             " (${Build.SUPPORTED_ABIS.first()})"
         } else {
